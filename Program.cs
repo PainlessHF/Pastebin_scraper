@@ -12,6 +12,11 @@ namespace Pastebin_scraper
 {
     class Program
     {
+		///
+		/// Coded by Painless
+		/// https://hackforums.net/member.php?action=profile&uid=3576695
+		///
+		
         private static readonly string RawUrl = "https://pastebin.com/raw/";
         private static string ArchiveUrl = "https://pastebin.com/Qnxrvy4h";
         private static List<string> Scraped = new List<string>();
